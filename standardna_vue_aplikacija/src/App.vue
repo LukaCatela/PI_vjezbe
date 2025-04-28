@@ -9,7 +9,7 @@ import ToDoHeader from './components/ToDoHeader.vue';
 <template>
 <div class="flex flex-col h-full">
     <ToDoHeader>To-Do Aplikacija</ToDoHeader>
-    <div class="grow">
+    <div class="grow flex justify-center col">
        <ToDoBody></ToDoBody>
     </div>
     <ToDoFooter>Luka Catela</ToDoFooter>
